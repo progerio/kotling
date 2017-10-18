@@ -1,5 +1,10 @@
 package main.kotlin.org.progerio
 
+/**
+ * class ShapeFactory.
+ *
+ * @author Paulo Rogerio.
+ */
 class ShapeFactory {
 
     fun getShape(shapeType: String):Shape?{

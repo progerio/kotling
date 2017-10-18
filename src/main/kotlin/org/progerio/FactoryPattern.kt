@@ -8,8 +8,11 @@ class FactoryPattern
 
 /**
  * Method main.
+ *
+ * @author Paulo Rogerio.
  */
 fun main(args:Array<String>){
+
     val shapeFactory = ShapeFactory()
 
     val shape1 =  shapeFactory.getShape(Type.CIRCLE)
