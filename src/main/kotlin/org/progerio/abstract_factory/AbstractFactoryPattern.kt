@@ -16,16 +16,16 @@ class AbstractFactoryPattern
         val shape1 = shapeFactory?.getShape("CIRCLE")
 
         //call draw method of Shape Circle
-        shape1!!.draw()
+        shape1?.draw()
 
         //get an object of Shape Rectangle
-        val shape2 = shapeFactory.getShape("RECTANGLE")
+        val shape2 = shapeFactory?.getShape("RECTANGLE")
 
         //call draw method of Shape Rectangle
         shape2?.draw()
 
         //get an object of Shape Square
-        val shape3 = shapeFactory.getShape("SQUARE")
+        val shape3 = shapeFactory?.getShape("SQUARE")
 
         //call draw method of Shape Square
         shape3?.draw()
