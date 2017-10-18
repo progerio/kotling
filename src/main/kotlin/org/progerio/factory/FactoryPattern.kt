@@ -1,4 +1,4 @@
-package main.kotlin.org.progerio
+package main.kotlin.org.progerio.factory
 
 /**
  * class FactoryPattern
@@ -9,6 +9,7 @@ class FactoryPattern
 /**
  * Method main.
  *
+ * @param args Array.
  * @author Paulo Rogerio.
  */
 fun main(args:Array<String>){

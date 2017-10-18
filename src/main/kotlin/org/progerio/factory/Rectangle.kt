@@ -1,4 +1,4 @@
-package main.kotlin.org.progerio
+package main.kotlin.org.progerio.factory
 
 /**
  * class Rectangle.

@@ -1,4 +1,4 @@
-package main.kotlin.org.progerio
+package main.kotlin.org.progerio.factory
 
 /**
  * class ShapeFactory.
@@ -7,7 +7,7 @@ package main.kotlin.org.progerio
  */
 class ShapeFactory {
 
-    fun getShape(shapeType: String):Shape?{
+    fun getShape(shapeType: String): Shape?{
         when(shapeType){
             "CIRCLE" -> return Circle()
             "RECTANGLE" -> return Rectangle()
