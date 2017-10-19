@@ -13,7 +13,6 @@ class FactoryProducer {
      * @param choice String.
      * @return AbstractFactory?.
      */
-
     companion object {
         fun getFactory(choice: String): AbstractFactory? {
             when (choice) {
