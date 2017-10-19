@@ -10,7 +10,7 @@ import main.kotlin.org.progerio.factory.Square
  *
  * @author Paulo Rogerio.
  */
-class ShapeFactory: AbstractFactory() {
+class ShapeFactory : AbstractFactory() {
 
     /**
      * Method  getColor.
@@ -29,7 +29,7 @@ class ShapeFactory: AbstractFactory() {
      * @return Shape?.
      */
     override fun getShape(shape: String): Shape? {
-        when(shape){
+        when (shape) {
             "CIRCLE" -> return Circle()
             "RECTANGLE" -> return Rectangle()
             "SQUARE" -> return Square()

@@ -26,7 +26,7 @@ class ColorFactory : AbstractFactory() {
      * @return Color?.
      */
     override fun getColor(color: String): Color? {
-        when (color){
+        when (color) {
             "RED" -> return Red()
             "GREEN" -> return Green()
             "BLUE" -> return Blue()

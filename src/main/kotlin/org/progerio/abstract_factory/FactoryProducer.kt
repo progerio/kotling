@@ -15,8 +15,8 @@ class FactoryProducer {
      */
 
     companion object {
-        fun getFactory(choice :String): AbstractFactory?{
-            when(choice){
+        fun getFactory(choice: String): AbstractFactory? {
+            when (choice) {
                 "SHAPE" -> return ShapeFactory()
                 "COLOR" -> return ColorFactory()
             }

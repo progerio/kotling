@@ -8,7 +8,7 @@ package main.kotlin.org.progerio.factory
 class ShapeFactory {
 
     fun getShape(shapeType: String): Shape?{
-        when(shapeType){
+        when (shapeType) {
             "CIRCLE" -> return Circle()
             "RECTANGLE" -> return Rectangle()
             "SQUARE" -> return Square()

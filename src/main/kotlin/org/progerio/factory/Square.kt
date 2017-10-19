@@ -5,7 +5,7 @@ package main.kotlin.org.progerio.factory
  *
  * @author Paulo Rogerio.
  */
-class Square: Shape {
+class Square : Shape {
     /**
      * Method draw.
      *

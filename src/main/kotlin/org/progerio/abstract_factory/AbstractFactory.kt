@@ -15,7 +15,7 @@ abstract class AbstractFactory {
      * @param color String.
      * @return Color?.
      */
-    abstract fun getColor(color:String):Color?
+    abstract fun getColor(color: String): Color?
 
     /**
      * Abstract Method getShape.
@@ -23,5 +23,5 @@ abstract class AbstractFactory {
      * @param shape String.
      * @return Shape?.
      */
-    abstract fun getShape(shape: String):Shape?
+    abstract fun getShape(shape: String): Shape?
 }
